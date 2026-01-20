@@ -17,3 +17,13 @@ groups:
         annotations:
           summary: "High CPU usage on {{ $labels.instance }}"
           description: "CPU usage has been above 80% for more than 1 minute."
+
+        # Test alert that always fires
+      - alert: TestAlert
+        expr: vector(1)
+        for: 5s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Test alert always firing"
+          description: "This alert is used to verify Prometheus alerting is working."
