@@ -1,0 +1,20 @@
+groups:
+  - name: app_alerts
+    rules:
+      - alert: AppWarningRateHigh
+        expr: increase(app_errors_total{type="warning"}[1m]) > 3
+        for: 0s
+        labels:
+          severity: warning
+        annotations:
+          summary: "App Warning Rate High"
+          description: "More than 3 minor errors detected in the last minute on {{ $labels.instance }}."
+
+      - alert: AppCriticalErrorRateHigh
+        expr: increase(app_errors_total{type="critical"}[1m]) > 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "App Critical Error Rate High"
+          description: "Critical errors detected on {{ $labels.instance }}!"
