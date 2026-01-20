@@ -1,7 +1,23 @@
 global:
-  scrape_interval: 15s
+  scrape_interval: 5s # tighter interval (was 15s)
+  evaluation_interval: 5s
+
+rule_files:
+  - "alert.rules.yml"
 
 scrape_configs:
+  # Node exporter
   - job_name: "node"
     static_configs:
       - targets: ["node_exporter:9100"]
+
+  # Prometheus self-scrape
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["prometheus:9090"]
+
+  # Custom / mock exporter
+  - job_name: "custom_app"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["custom_exporter:8080"]
