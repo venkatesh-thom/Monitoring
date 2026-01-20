@@ -16,7 +16,7 @@ groups:
           severity: warning
         annotations:
           summary: "High CPU usage on {{ $labels.instance }}"
-          description: "CPU usage has been above 80% for more than 1 minute."
+          description: "CPU usage has been above 80% for more than 10 seconds."
 
         # Test alert that always fires
       - alert: TestAlert
