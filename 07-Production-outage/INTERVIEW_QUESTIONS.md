@@ -1,4 +1,4 @@
-# Episode 7 – Interview Questions
+#  7 – Interview Questions
 
 1. What elements belong in a good incident runbook and how would you keep it up to date?
 2. How can you safely test paging/incident workflows without causing alarm fatigue?

@@ -1,4 +1,4 @@
-# Episode 7 – Interview Answers
+#  7 – Interview Answers
 
 1. **Runbook essentials:** Include trigger conditions, escalation contacts, diagnostic steps, mitigation actions, rollback commands, and verification checks; update runbooks after every incident review to keep them accurate.
 2. **Testing paging workflows:** Use game days or chaos simulations with dummy alerts routed to training channels, clearly mark test alerts, and ensure approvals so real incidents aren’t drowned out.

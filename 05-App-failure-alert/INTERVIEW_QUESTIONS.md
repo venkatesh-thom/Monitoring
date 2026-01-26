@@ -1,4 +1,4 @@
-# Episode 5 – Interview Questions
+#  5 – Interview Questions
 
 1. What are the benefits of white‑box (application) monitoring versus black‑box synthetic checks?
 2. When would you choose Counters, Gauges, Histograms, or Summaries for application instrumentation?

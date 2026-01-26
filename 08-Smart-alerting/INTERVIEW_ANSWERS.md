@@ -1,4 +1,4 @@
-# Episode 8 – Interview Answers
+#  8 – Interview Answers
 
 1. **Reducing alert fatigue:** Prioritize SLO-based alerts, add deduplication/grouping, route informational events to chat, and continually prune alerts that never trigger or never drive action.
 2. **Multi-burn-rate design:** Evaluate fast windows (e.g., 5m) for early detection and slow windows (1h/6h) for accuracy, combining them with different thresholds to page only when both indicate SLO burn.

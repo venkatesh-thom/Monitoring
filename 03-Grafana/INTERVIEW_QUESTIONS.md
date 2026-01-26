@@ -1,4 +1,4 @@
-# Episode 3 – Interview Questions
+#  3 – Interview Questions
 
 1. What are the advantages of giving product teams self‑service Grafana access instead of sending raw PromQL results?
 2. How do Grafana dashboard variables work under the hood and when would you choose `label_values` vs `query` type variables?

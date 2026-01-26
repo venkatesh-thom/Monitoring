@@ -1,4 +1,4 @@
-# Episode 10 – Interview Answers
+#  10 – Interview Answers
 
 1. **Layer-specific alerts:** Tag metrics by service/tier, create alerts per job (`web`, `api`, `db`), and include dependency hints so responders immediately know which layer is faltering.
 2. **Monitoring stateful services:** Track replication, WAL, disk I/O, connection pools, and long-running transactions; combine exporter metrics with query-level logging to capture slow queries and blocking chains.

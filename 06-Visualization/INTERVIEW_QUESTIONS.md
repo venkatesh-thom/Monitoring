@@ -1,4 +1,4 @@
-# Episode 6 – Interview Questions
+#  6 – Interview Questions
 
 1. What makes a dashboard actionable during an incident versus just “pretty”?
 2. How do you decide between multiple smaller dashboards and a single aggregated “command center” view?

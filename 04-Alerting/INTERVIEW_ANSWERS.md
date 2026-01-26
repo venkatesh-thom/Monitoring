@@ -1,4 +1,4 @@
-# Episode 4 – Interview Answers
+#  4 – Interview Answers
 
 1. **Alert lifecycle:** Prometheus evaluates rules, transitions alert states (pending→firing), pushes notifications to Alertmanager, which deduplicates, groups, silences, and sends them to receivers like Slack or PagerDuty.
 2. **Preventing alert storms:** Group alerts by service, use inhibition rules, deduplicate via Alertmanager, and design dependency-aware alerts so a shared outage pages once instead of per-instance.

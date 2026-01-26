@@ -1,4 +1,4 @@
-# Episode 5 – Instrumented App & Failure Alerts
+#  5 – Instrumented App & Failure Alerts
 
 ## Overview
 We now instrument the Flask app with Prometheus client libraries so application errors show up as first‑class metrics (`app_errors_total`). Prometheus scrapes the app, Alertmanager distributes notifications, Grafana visualizes, and a helper script generates load to validate the pipeline end to end.

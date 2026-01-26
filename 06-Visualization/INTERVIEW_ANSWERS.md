@@ -1,4 +1,4 @@
-# Episode 6 – Interview Answers
+#  6 – Interview Answers
 
 1. **Actionable dashboards:** They surface key signals (golden metrics), include thresholds or alert overlays, and provide context/runsbooks so responders know what to do instead of just seeing pretty charts.
 2. **Many vs single dashboards:** Use smaller, role-specific dashboards when audiences differ, but maintain an executive/overview board for shared situational awareness; avoid monolithic boards that become slow or cluttered.

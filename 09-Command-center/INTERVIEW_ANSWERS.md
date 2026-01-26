@@ -1,4 +1,4 @@
-# Episode 9 – Interview Answers
+#  9 – Interview Answers
 
 1. **Single pane content:** Highlight golden signals, alert status, incident timelines, and key dependencies while keeping layouts simple; rotate less-critical panels off the page to avoid clutter.
 2. **Measuring dashboard value:** Track MTTR trends, survey responders, and review incident timelines to see whether the command center reduced tool-switching or sped up decision making.

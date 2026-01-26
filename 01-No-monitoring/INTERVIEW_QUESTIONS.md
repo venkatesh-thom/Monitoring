@@ -1,4 +1,4 @@
-# Episode 1 – Interview Questions
+#  1 – Interview Questions
 
 1. What risks come with shipping services that lack metrics, logs, and tracing, even when traffic is low?
 2. How do you convince stakeholders to invest in observability before a major incident happens?

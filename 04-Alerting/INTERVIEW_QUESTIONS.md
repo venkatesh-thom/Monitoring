@@ -1,4 +1,4 @@
-# Episode 4 – Interview Questions
+#  4 – Interview Questions
 
 1. Describe the lifecycle of a Prometheus alert from rule evaluation through Alertmanager notifications.
 2. How would you prevent alert storms when a shared dependency fails and hundreds of instances go down at once?

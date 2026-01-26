@@ -1,4 +1,4 @@
-# Episode 1 – No Monitoring
+#  1 – No Monitoring
 
 ## Overview
 This episode is intentionally bare‑bones: a single Flask service (`app.py`) that randomly crashes to highlight how brittle life is without any monitoring or telemetry. There is no `/metrics`, no dashboards, and no alerting, so failures can only be spotted manually.

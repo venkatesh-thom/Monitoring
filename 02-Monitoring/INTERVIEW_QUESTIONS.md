@@ -1,4 +1,4 @@
-# Episode 2 – Interview Questions
+#  2 – Interview Questions
 
 1. Why is Node Exporter typically one of the very first exporters teams deploy, and what blind spots remain after it is installed?
 2. Explain how Prometheus decides when a target is "up" or "down" and how `scrape_interval` influences alert latency.

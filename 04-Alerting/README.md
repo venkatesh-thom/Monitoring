@@ -1,4 +1,4 @@
-# Episode 4 – Prometheus Alerting Basics
+#  4 – Prometheus Alerting Basics
 
 ## Overview
 Grafana visualizations are reactive; this episode adds proactive alerting with Prometheus rules and Alertmanager. Alerts fire when the Node Exporter metrics cross a threshold and are routed to Slack so that operators learn about issues before users complain.

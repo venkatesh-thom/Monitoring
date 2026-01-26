@@ -1,7 +1,7 @@
-# Episode 6 – Storytelling with Dashboards
+#  6 – Storytelling with Dashboards
 
 ## Overview
-With instrumentation and alerts in place, this episode focuses on visualization best practices. The stack mirrors Episode 5, but the emphasis is on curating Grafana dashboards that help on‑call engineers reason about incidents quickly (golden signals, drill‑downs, and annotations).
+With instrumentation and alerts in place, this episode focuses on visualization best practices. The stack mirrors  5, but the emphasis is on curating Grafana dashboards that help on‑call engineers reason about incidents quickly (golden signals, drill‑downs, and annotations).
 
 ## Stack Components
 - `app/app.py` – same simulated failure service exposing `app_errors_total`.

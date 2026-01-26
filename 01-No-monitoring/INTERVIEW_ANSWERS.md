@@ -1,4 +1,4 @@
-# Episode 1 – Interview Answers
+#  1 – Interview Answers
 
 1. **Risks without telemetry:** You cannot quantify availability, detect regressions, or prove SLAs, so outages linger until users complain; debugging also goes blind because there is no evidence to correlate failures with deployments or dependencies.
 2. **Justifying observability early:** Frame it as insurance—calculate the cost of an hour of downtime, highlight regulatory/customer expectations, and demonstrate how minimal metrics/logging de-risk launches compared with the engineering effort.

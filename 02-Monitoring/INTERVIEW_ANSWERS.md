@@ -1,4 +1,4 @@
-# Episode 2 – Interview Answers
+#  2 – Interview Answers
 
 1. **Why Node Exporter first:** It gives instant host visibility (CPU, memory, disk) with almost zero engineering effort, but it still misses app-level metrics and black-box availability, so you must layer additional telemetry later.
 2. **Target up/down semantics:** Prometheus marks a target `up` when a scrape succeeds before the timeout; shorter `scrape_interval` improves detection speed but increases resource usage and can create more alert noise if thresholds are too tight.

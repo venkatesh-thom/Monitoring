@@ -1,4 +1,4 @@
-# Episode 2 – First Prometheus Scrape
+#  2 – First Prometheus Scrape
 
 ## Overview
 The first monitoring step adds Prometheus plus Node Exporter to collect host metrics. There is still no application telemetry, but you now have time‑series data for CPU, memory, filesystem, and networking to explore inside Prometheus.

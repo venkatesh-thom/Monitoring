@@ -1,4 +1,4 @@
-# Episode 9 – Interview Questions
+#  9 – Interview Questions
 
 1. What information belongs on a “single pane of glass” for SREs, and how do you prevent it from becoming cluttered?
 2. How can you measure whether dashboards or runbooks actually improve MTTR?

@@ -1,4 +1,4 @@
-# Episode 5 – Interview Answers
+#  5 – Interview Answers
 
 1. **White-box benefits:** They expose internal states (queues, code paths) so you can detect issues before they manifest externally, while black-box checks only see symptoms and may miss root-cause data.
 2. **Metric type selection:** Counters for monotonically increasing events, Gauges for values that go up/down (memory), Histograms for latency distributions, and Summaries for client-side quantiles when aggregation isn’t required.

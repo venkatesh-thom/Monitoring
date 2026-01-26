@@ -1,4 +1,4 @@
-# Episode 8 – Interview Questions
+#  8 – Interview Questions
 
 1. What strategies reduce alert fatigue while still surfacing critical incidents quickly?
 2. How would you design multi-window, multi-burn-rate SLO alerts using PromQL?

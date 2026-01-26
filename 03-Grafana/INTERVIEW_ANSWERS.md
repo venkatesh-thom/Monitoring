@@ -1,4 +1,4 @@
-# Episode 3 – Interview Answers
+#  3 – Interview Answers
 
 1. **Self-service Grafana:** It empowers product teams to explore data, reduces reporting backlog, and encourages ownership, whereas raw PromQL is steep for non-SRE stakeholders.
 2. **Dashboard variables:** `label_values` fetches label values from a metric quickly, while `query` lets you run arbitrary PromQL; choose based on whether you need filtered label sets or advanced logic (e.g., regex or aggregations).

@@ -1,10 +1,10 @@
-# Episode 9 – Building a Command Center
+#  9 – Building a Command Center
 
 ## Overview
-All of the earlier components (instrumented app, rich alerts, Grafana) are combined into an “operations command center.” The goal is to curate a single workspace where on-call engineers can see traffic, latency, error budgets, and alert status without hopping between tools. The code mirrors Episode 8; the difference is in how you package and operationalize the experience.
+All of the earlier components (instrumented app, rich alerts, Grafana) are combined into an “operations command center.” The goal is to curate a single workspace where on-call engineers can see traffic, latency, error budgets, and alert status without hopping between tools. The code mirrors  8; the difference is in how you package and operationalize the experience.
 
 ## Stack Components
-- `app/app.py` – same labeled counters and latency histogram as Episode 8.
+- `app/app.py` – same labeled counters and latency histogram as  8.
 - `prometheus/*` – evaluates warning/critical alerts and feeds dashboards.
 - `alertmanager/*` – routes alerts to Slack dev vs. on-call channels.
 - `docker-compose.yml` – ensures every service (app, exporters, Prometheus, Alertmanager, Grafana) is up for the command center.

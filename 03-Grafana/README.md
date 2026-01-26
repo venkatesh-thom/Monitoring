@@ -1,11 +1,11 @@
-# Episode 3 – Visualizing with Grafana
+#  3 – Visualizing with Grafana
 
 ## Overview
 Prometheus data is powerful, but teams need friendly visualizations. This episode keeps the Prometheus + Node Exporter setup and adds Grafana so you can build dashboards, share panels, and experiment with alert annotations.
 
 ## Stack Components
 - `docker-compose.yml` – runs Prometheus, Node Exporter, and Grafana (default creds `admin/admin`).
-- `prometheus.yml` – same scrape config as Episode 2 so you can reuse the metrics.
+- `prometheus.yml` – same scrape config as  2 so you can reuse the metrics.
 
 ## Run the Demo
 1. `docker compose up -d`.

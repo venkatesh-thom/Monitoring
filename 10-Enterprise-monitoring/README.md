@@ -1,4 +1,4 @@
-# Episode 10 – Enterprise-Grade Monitoring
+#  10 – Enterprise-Grade Monitoring
 
 ## Overview
 The final episode assembles a realistic multi-tier system: a web frontend, a backend API, PostgreSQL, Node Exporter, and a Postgres exporter. Prometheus scrapes each component, alert rules cover application and database health, and Alertmanager fans out notifications per severity. This is the canonical “all the pieces together” environment.

@@ -1,4 +1,4 @@
-# Episode 8 – Smart Alerting & Multi-Signal Telemetry
+#  8 – Smart Alerting & Multi-Signal Telemetry
 
 ## Overview
 The app now emits richer metrics: labeled error counters (`type=warning|critical`) and a latency histogram around the `/` and `/slow` endpoints. Prometheus alert rules differentiate minor vs. critical issues, and Alertmanager fans them out to different Slack channels. This demonstrates how to reduce noise while prioritizing real incidents.
